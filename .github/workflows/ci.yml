@@ -18,7 +18,7 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build Storybook
-        run: npm run build-storybook
+        run: npx build-storybook
 
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.5.2
